@@ -1,0 +1,10 @@
+<div>
+    {{#if images}}
+    <img src="{{images.2.url}}" alt="artists">
+    {{else}}
+    <img src="https://user-images.githubusercontent.com/25275745/82283218-ba9ec200-9963-11ea-9fc8-8408b57bef12.png"
+        alt="artist">
+    {{/if}}
+    {{name}}
+    <a href="/albums/{{id}}">View Album</a>
+</div>

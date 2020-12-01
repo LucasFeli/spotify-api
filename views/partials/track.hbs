@@ -1,0 +1,10 @@
+<div>
+    {{name}}
+    {{#if preview_url}}
+    <audio controls src="{{preview_url}}">
+        browser does not support audio tag
+    </audio>
+    {{else}}
+    <p><b>No preview</b></p>
+    {{/if}}
+</div>
